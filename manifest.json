@@ -1,0 +1,11 @@
+{
+	"id": "obsidian-copilot",
+	"name": "OBsidian Copilot",
+	"version": "0.0.1",
+	"minAppVersion": "0.15.0",
+	"description": "符合中文习惯的辅助插件",
+	"author": "Ivy End",
+	"authorUrl": "https://github.com/Ivy-End",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": true
+}
