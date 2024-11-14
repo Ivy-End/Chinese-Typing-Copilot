@@ -3,16 +3,16 @@ import { WASI } from 'wasi';
 
 // Remember to rename these classes and interfaces!
 
-interface OBCopilotSettings {
+interface CTCopilotSettings {
 	mySetting: string;
 }
 
-const DEFAULT_SETTINGS: OBCopilotSettings = {
+const DEFAULT_SETTINGS: CTCopilotSettings = {
 	mySetting: 'default'
 }
 
-export default class OBCopilot extends Plugin {
-	settings: OBCopilotSettings;
+export default class CTCopilot extends Plugin {
+	settings: CTCopilotSettings;
 
 	async onload() {
 		await this.loadSettings();
